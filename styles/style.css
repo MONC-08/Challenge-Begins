@@ -24,7 +24,8 @@ main {
     text-align: center;
 }
 
-.btn-primary {
+.btn-primary,
+#feedback {
     background-color: white;
     padding: 18px 24px;
     border-radius: 10px;
@@ -163,7 +164,6 @@ nav ul li {
 }
 
 .target-item {
-    border: 2px solid goldenrod;
     padding: 20px;
     border-radius: 10px;
 }
@@ -192,3 +192,28 @@ nav ul li {
 }
 
 /* support styles */
+.support-container {
+    width: 940px;
+    height: 315px;
+    margin: 0 auto;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 10px;
+}
+
+.support-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+#feedback {
+    width: 500px;
+}
+
+/* footer styles */
